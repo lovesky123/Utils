@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="common_bread_view_node_fill_trans">#7f4e535c</color>
+    <color name="common_bread_view_end_fill_trans">#7f82868e</color>
+    <color name="common_bread_view_node_fill_normal">@android:color/white</color>
+    <color name="common_background_gray">#ecedee</color>
+    <color name="common_bread_view_end_fill_normal">#3897fe</color>
+    <color name="common_search_background_gray">#f5f5f5</color>
+    <color name="common_bread_text_end">#ffffff</color>
+    <color name="common_bread_text_node">#6a7278</color>
+    <color name="text_color_8a000000">#8A000000</color>
+    <color name="text_color_212020">#212020</color>
+    <color name="bg_color_f5f5f5">#F5F5F5</color>
+    <color name="bg_color_60000000">#60000000</color>
+    <!-- 一级黑色标题 -->
+    <color name="text_black">#19202e</color>
+    <!-- 50%白色透明度 -->
+    <color name="transparent_white">#ccffffff</color>
+    <!-- 灰色线 -->
+    <color name="line_grey">#cbcbcb</color>
+    <color name="red_main">#D12291</color>
+    <color name="gray_main_text">#33ffffff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color5A51EE">#5A51EE</color>
+</resources>

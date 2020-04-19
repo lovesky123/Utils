@@ -1,0 +1,191 @@
+<resources>
+    <!--MaxHeightRecyclerView-->
+    <declare-styleable name="MaxHeightRecyclerView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TitleBar">
+        <attr name="containsLayout" format="boolean" />
+        <attr name="textLeftStr" format="string" />
+        <attr name="textRightStr" format="string" />
+        <attr name="textCenterStr" format="string" />
+        <attr name="imgLeft" format="reference" />
+        <attr name="imgRight" format="reference" />
+        <attr name="itemSize" format="dimension"/>
+        <attr name="textCenterSizeT" format="dimension" />
+        <attr name="textLeftColor" format="color" />
+        <attr name="textRightColor" format="color" />
+        <attr name="textCenterColorT" format="color" />
+        <attr name="baseBackGround" format="color" />
+    </declare-styleable>
+
+    <!-- TimeDateBar -->
+    <declare-styleable name="TimeBar">
+        <attr name="background_margin_color" format="color"/>	<!-- margin background color -->
+        <attr name="background_color" format="color"/>			<!-- background color -->
+        <attr name="fill_margin_color" format="color"/>	        <!-- margin fillground color -->
+        <attr name="fill_color" format="color"/>				<!-- fill color -->
+        <attr name="fill_bg_color" format="color"/>				<!-- fill_bg color -->
+        <attr name="scale_text_color" format="color"/>			<!-- scale_text color -->
+        <attr name="thumb_color" format="color"/>			<!-- thumb color -->
+        <attr name="fill_height" format="dimension"/>		<!-- fill height -->
+        <attr name="scale_text_size" format="dimension"/>	<!-- scale_text size -->
+        <attr name="date_text_size" format="dimension"/>	<!-- date_text size -->
+        <attr name="date_text_color" format="color"/>		<!-- date_text color -->
+        <attr name="date_margin_size" format="dimension"/>	<!-- date_margin size -->
+    </declare-styleable>
+    <!-- RoundImageView -->
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CommonItemView">
+        <attr name="tx_title" format="string"/>
+        <attr name="tx_content_size" format="dimension"/>
+        <attr name="tx_content_color" format="color"/>
+        <attr name="tx_content_hint" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CirclePercentage">
+        <attr name="arcColor" format="color" />
+        <attr name="arcSelectedBackgroundColor" format="color" />
+        <attr name="arcWidthValue" format="dimension" />
+        <attr name="centerTextColor" format="color" />
+        <attr name="centerTextColorSelected" format="color" />
+        <attr name="centerTextSize" format="dimension" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="arcStartColor" format="color" />
+        <attr name="arcEndColor" format="color" />
+        <attr name="centerTextIndicate" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="pickerview">
+        <attr name="wheelview_gravity">
+            <enum name="center" value="17" />
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+        </attr>
+        <attr name="wheelview_textSize" format="dimension" />
+        <attr name="wheelview_textColorOut" format="color" />
+        <attr name="wheelview_textColorCenter" format="color" />
+        <attr name="wheelview_dividerColor" format="color" />
+        <attr name="wheelview_lineSpacingMultiplier" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="DoubleSlideSeekBar">
+        <!--线（进度条）宽度-->
+        <attr name="lineHeight" format="dimension" />
+        <!--字的大小 100元-->
+        <attr name="textSize" format="dimension" />
+        <!--字的颜色 100元-->
+        <attr name="textColor" format="color" />
+        <!--两个游标内部 线（进度条）的颜色-->
+        <attr name="inColor" format="color" />
+        <!--两个游标外部 线（进度条）的颜色-->
+        <attr name="outColor" format="color" />
+        <!--左边图标的图片-->
+        <attr name="imageLow" format="reference" />
+        <!--右边图标 的图片-->
+        <attr name="imageBig" format="reference" />
+        <!--游标 图片宽度-->
+        <attr name="imagewidth" format="dimension" />
+        <!--游标 图片高度-->
+        <attr name="imageheight" format="dimension" />
+        <!--是否有刻度线-->
+        <attr name="hasRule" format="boolean" />
+        <!--刻度的颜色-->
+        <attr name="ruleColor" format="color" />
+        <!--刻度上边的字 的颜色-->
+        <attr name="ruleTextColor" format="color" />
+        <!--单位 元-->
+        <attr name="unit" format="string" />
+        <!--单位份数-->
+        <attr name="equal" format="integer" />
+        <!--刻度单位 $-->
+        <attr name="ruleUnit" format="string" />
+        <!--刻度上边文字的size-->
+        <attr name="ruleTextSize" format="dimension" />
+        <!--刻度线的高度-->
+        <attr name="ruleLineHeight" format="dimension" />
+        <!--选择器的最大值-->
+        <attr name="bigValue" format="integer" />
+        <!--选择器的最小值-->
+        <attr name="smallValue" format="integer" />
+    </declare-styleable>
+
+    <!--SwitchButton-->
+    <declare-styleable name="SwitchButton" tools:ignore="ResourceName">
+        <attr name="kswThumbDrawable" format="reference" />
+        <attr name="kswThumbColor" format="color|reference" />
+        <attr name="kswThumbMargin" format="dimension|reference" />
+        <attr name="kswThumbMarginTop" format="dimension|reference" />
+        <attr name="kswThumbMarginBottom" format="dimension|reference" />
+        <attr name="kswThumbMarginLeft" format="dimension|reference" />
+        <attr name="kswThumbMarginRight" format="dimension|reference" />
+        <attr name="kswThumbWidth" format="dimension|reference" />
+        <attr name="kswThumbHeight" format="dimension|reference" />
+        <attr name="kswThumbRadius" format="dimension|reference" />
+        <attr name="kswBackRadius" format="dimension|reference" />
+        <attr name="kswBackDrawable" format="reference" />
+        <attr name="kswBackColor" format="color|reference" />
+        <attr name="kswFadeBack" format="boolean" />
+        <attr name="kswThumbRangeRatio" format="float" />
+        <attr name="kswAnimationDuration" format="integer" />
+        <attr name="kswTintColor" format="color|reference" />
+        <attr name="kswTextOn" format="string" />
+        <attr name="kswTextOff" format="string" />
+        <attr name="kswTextThumbInset" format="dimension" />
+        <attr name="kswTextExtra" format="dimension" />
+        <attr name="kswTextAdjust" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressView">
+        <attr name="cpvProgressColor" format="color" />
+        <attr name="cpvProgressDefaultColor" format="color" />
+        <attr name="cpvProgressWidth" format="dimension" />
+        <attr name="cpvMax" format="integer" />
+        <attr name="cpvProgress" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="MZBannerView">
+        <attr name="open_mz_mode" format="boolean"/>
+        <attr name="canLoop" format="boolean"/>
+        <attr name="indicatorPaddingLeft" format="dimension"/>
+        <attr name="indicatorPaddingRight" format="dimension"/>
+        <attr name="indicatorPaddingTop" format="dimension"/>
+        <attr name="indicatorPaddingBottom" format="dimension"/>
+        <attr name="indicatorAlign">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="middle_page_cover" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="DonutProgress">
+        <attr name="donut_progress" format="integer" />
+        <attr name="donut_max" format="integer" />
+
+        <attr name="donut_unfinished_color" format="color" />
+        <attr name="donut_finished_color" format="color" />
+
+        <attr name="donut_finished_stroke_width" format="dimension" />
+        <attr name="donut_unfinished_stroke_width" format="dimension" />
+
+        <attr name="donut_text_size" format="dimension" />
+        <attr name="donut_text_color" format="color" />
+
+        <attr name="donut_prefix_text" format="string" />
+        <attr name="donut_suffix_text" format="string" />
+        <attr name="donut_text" format="string" />
+
+        <attr name="donut_background_color" format="color" />
+
+        <attr name="donut_inner_bottom_text" format="string" />
+        <attr name="donut_inner_bottom_text_size" format="dimension" />
+        <attr name="donut_inner_bottom_text_color" format="color" />
+
+        <attr name="donut_circle_starting_degree" format="integer" />
+    </declare-styleable>
+</resources>
